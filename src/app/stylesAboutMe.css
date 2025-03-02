@@ -1,0 +1,16 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 8px 12px;
+    text-align: left;
+}
+
+
+/* Remove the table border */
+table, th, td {
+    border: none;
+}

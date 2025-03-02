@@ -1,0 +1,180 @@
+.body-div {
+    
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    
+}
+
+.section-container {
+    width: 80%;
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:black;
+}
+
+.sub-section-container {
+    display: flex;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.left {
+    background: #2e7d32;
+    color: white;
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+}
+
+.left .date {
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.left h3 {
+    margin: 10px 0 0;
+    font-size: 18px;
+}
+
+.right {
+    width: 70%;
+    padding: 20px;
+    text-align: left;
+    background: white;
+}
+
+.right h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.right p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+
+
+.reference-card {
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .reference-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile2-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+    /*background-image: url('assets/reference_profile.png');*/
+
+  }
+  
+  .text-content {
+    flex: 1;
+  }
+  
+  .text-content p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .author {
+    margin-top: 10px;
+  }
+  
+  .author h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .position {
+    font-size: 12px;
+    color: gray;
+  }
+  
+  .progress-bar {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .progress {
+    width: 40px;
+    height: 4px;
+    border-radius: 2px;
+    margin-right: 5px;
+  }
+  
+  .gray {
+    background: gray;
+  }
+  
+  .green {
+    background: green;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 8px 12px;
+    text-align: left;
+}
+
+
+/* Remove the table border */
+table, th, td {
+    border: none;
+}
+.university {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 10px;
+}
+.degree {
+  font-size: 18px;
+  font-weight: bold;
+}
